@@ -1,6 +1,6 @@
 Analyze information related to countries.
+Also It performs query operations like K-clustering,find neighbor countries,MIN-MAX statistics information.
 These countries are listed in FAO.
-It performs query operation like K-clustering, generating neighbor countries, statistics information.
 
 DEPENDENCIS
 1.JDK 1.6
