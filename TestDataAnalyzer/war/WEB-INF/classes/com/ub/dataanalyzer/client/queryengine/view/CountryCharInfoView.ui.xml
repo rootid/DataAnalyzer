@@ -1,0 +1,75 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<g:VerticalPanel>
+		<g:HorizontalPanel>
+			<g:Label>Parameter</g:Label>
+			<g:ListBox ui:field='paraListBox' visibleItemCount="1">
+				<g:item value='1'>
+					GDP
+				</g:item>
+				<g:item value='2'>
+					HDI
+				</g:item>
+				<g:item value='3'>
+					Population
+				</g:item>
+				<g:item value='4'>
+					Overall Land Area
+				</g:item>
+			</g:ListBox>
+		</g:HorizontalPanel>
+		<g:HorizontalPanel>
+			<g:Label>Level</g:Label>
+			<g:ListBox ui:field="levelListBox">
+				<g:item value='1'>
+					Top
+				</g:item>
+				<g:item value='2'>
+					Average
+				</g:item>
+				<g:item value='3'>
+					Bottom
+				</g:item>
+			</g:ListBox>
+		</g:HorizontalPanel>
+		<g:HorizontalPanel>
+			<g:Label>No of Countries</g:Label>
+			<g:ListBox ui:field="noListBox">
+				<g:item value='1'>
+					1
+				</g:item>
+				<g:item value='2'>
+					2
+				</g:item>
+				<g:item value='3'>
+					3
+				</g:item>
+				<g:item value='4'>
+					4
+				</g:item>
+				<g:item value='5'>
+					5
+				</g:item>
+				<g:item value='6'>
+					6
+				</g:item>
+				<g:item value='7'>
+					7
+				</g:item>
+				<g:item value='8'>
+					8
+				</g:item>
+				<g:item value='9'>
+					9
+				</g:item>
+				<g:item value='10'>
+					10
+				</g:item>
+			</g:ListBox>
+		</g:HorizontalPanel>
+		<g:HorizontalPanel>
+			<g:Button ui:field='submit'> Submit </g:Button>
+			<g:Button ui:field='cancel'> Cancel </g:Button>
+		</g:HorizontalPanel>
+	</g:VerticalPanel>
+</ui:UiBinder>

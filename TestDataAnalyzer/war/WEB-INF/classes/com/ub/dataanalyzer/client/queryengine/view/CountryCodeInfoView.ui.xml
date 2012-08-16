@@ -1,0 +1,10 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<g:VerticalPanel>
+		<g:HorizontalPanel>
+			<g:Label>Select Country Name :</g:Label>
+			<g:ListBox ui:field="countryListBox" visibleItemCount="1"></g:ListBox>
+		</g:HorizontalPanel>
+		<g:Button ui:field='submit'> Submit </g:Button>
+	</g:VerticalPanel>
+</ui:UiBinder>

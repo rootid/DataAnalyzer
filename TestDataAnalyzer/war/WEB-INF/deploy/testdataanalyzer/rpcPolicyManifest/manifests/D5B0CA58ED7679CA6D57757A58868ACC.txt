@@ -1,0 +1,2 @@
+serviceClass: com.ub.dataanalyzer.client.services.ClientServices
+path: D96D4607AAB3F6035D0C62419F829603.gwt.rpc
