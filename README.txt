@@ -1,4 +1,5 @@
-Process countries related information.
+Analyze information related to countries.
+These countries are listed in FAO.
 It performs query operation like K-clustering, generating neighbor countries, statistics information.
 
 DEPENDENCIS
