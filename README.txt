@@ -1,4 +1,5 @@
-Process countries related to data obtained from "FAO site" .It performs query operation like K-clustering, generating neighbor countries, statistics information. 
+Process countries related information.
+It performs query operation like K-clustering, generating neighbor countries, statistics information.
 
 DEPENDENCIS
 1.JDK 1.6
@@ -6,4 +7,4 @@ DEPENDENCIS
 3.GAE SDK 1.5.3
 2.appengine-remote-api.jar
 
-
+Ref:Data obtained from http://www.fao.org/index_en.html
